@@ -1,0 +1,2 @@
+# Data Governance
+Use synthetic or properly licensed and de-identified research data only. DICOM metadata removal alone may be insufficient because identifying information can exist in private tags, free text, burned-in pixels, filenames, and surrounding systems. Establish purpose, lawful basis, access controls, retention, re-identification risk assessment, and incident response before handling real data.

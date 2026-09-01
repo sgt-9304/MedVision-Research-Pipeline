@@ -1,0 +1,7 @@
+services:
+ medvision:
+  build: .
+  ports: ["8000:8000"]
+  env_file: .env
+  volumes: ["medvision_outputs:/app/outputs"]
+volumes: {medvision_outputs: {}}
